@@ -1,0 +1,6 @@
+[submodule "Adafruit_TSL2561"]
+	path = Adafruit_TSL2561
+	url = https://github.com/wgbartley/Adafruit_TSL2561.git
+[submodule "HTU21D"]
+	path = HTU21D
+	url = https://github.com/romainmp/HTU21D.git
