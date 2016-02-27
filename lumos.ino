@@ -52,7 +52,7 @@ void loop(void) {
     /* Display the results (light is measured in lux) */
     if (event.light) {
         if (sendUdp(event.light)<0){
-           Particle.publish("Failed to send a UDP packet");   
+           Particle.publish("Failed to send a UDP packet");
         }
     }
     else {
@@ -61,5 +61,5 @@ void loop(void) {
         sendUdp(0);
         Particle.publish("Sensor overload, sending 0");
     }
-    delay(500);
+    delay(1000);
 }
